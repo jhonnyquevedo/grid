@@ -39,17 +39,26 @@ menu ul p{
 main{
     grid-area: main;
     background-color: #e7e7e7;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 23px;
+    padding: 20px;
 }
 
 main .card{
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    padding-top: 20px;
-    width: 250px;
+    width: 390px;
     background-color: white;
 }
 
 main .card img{
-    width: 250px;
+    width: 390px;
+}
+
+#zapatos{
+    padding-top: 35.5%;
 }
 
 main .card h3{
@@ -67,7 +76,7 @@ main .card button{
     background-color: #25527B;
     border: none;
     color: white;
-    padding: 5px;
+    padding: 7px;
 }
 
 footer{
@@ -80,7 +89,12 @@ footer{
 .grid-container{
     display: grid;
     grid-template-areas: 
-    "header header"
-    "menu main"
-    "footer footer";
+    "header header header header"
+    "menu main main main"
+    "footer footer footer footer";
+
 }
+
+
+
+

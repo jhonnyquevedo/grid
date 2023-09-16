@@ -1,4 +1,30 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    grid-area: header;
+    background-color: #25527B;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+menu{
+    grid-area: menu;
+    background-color: #e7e7e7;
+}
+
+main{
+    grid-area: main;
+    background-color: #e7e7e7;
+}
+
+footer{
+    grid-area: footer;
 }

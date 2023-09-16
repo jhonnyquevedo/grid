@@ -41,6 +41,35 @@ main{
     background-color: #e7e7e7;
 }
 
+main .card{
+    text-align: center;
+    padding-top: 20px;
+    width: 250px;
+    background-color: white;
+}
+
+main .card img{
+    width: 250px;
+}
+
+main .card h3{
+    padding-top: 10px;
+    color: #25527B;
+}
+
+main .card p{
+    padding: 10px;
+    color: #25527B;
+}
+
+main .card button{
+    width: 100%;
+    background-color: #25527B;
+    border: none;
+    color: white;
+    padding: 5px;
+}
+
 footer{
     grid-area: footer;
     text-align: center;

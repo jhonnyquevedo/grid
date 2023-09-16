@@ -74,4 +74,13 @@ footer{
     grid-area: footer;
     text-align: center;
     padding: 10px;
+    color: #25527B;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "menu main"
+    "footer footer";
 }
